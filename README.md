@@ -1,70 +1,164 @@
-# Getting Started with Create React App
+# 📗 Table of Contents <a name="readme-topi"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📗 Table of Contents](#table-of-contents)
+- [📖 Hello React Frontend](#about-project)
+  - [🛠 Built With ](#built-with)
+    - [Tech Stack ](#tech-stack)
+    - [Key Features ](#key-features)
+- [💻 Getting Started ](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors ](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing ](#contributing)
+- [⭐️ Show your support ](#️show-your-support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License ](#license)
 
-## Available Scripts
+# 📖 Hello React Frontend <a name="about-project"></a>
 
-In the project directory, you can run:
+> `Hello React Frontend` is a demo app that set up as a client-side for a `Rails`
+> app to manage frontend of the application running on both `Ruby-on-Rails` and `React`.
+> The app display a ramdom message from the server using `React` component
 
-### `npm start`
+- `Hello Rails Backend` PR Link: [Backend APP PR](https://github.com/PraisesPJMT/Hello-Rails-Backend/pull/1)
+- `Hello Rails Backtend` APP Link: [Backend App](https://github.com/PraisesPJMT/Hello-Rails-Backend)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built With <a name="built-with"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm test`
+> Here are the tech stacks applied in this project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>Language</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
 
-### `npm run build`
+<details>
+  <summary>Framework</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">Reactjs</a></li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Linters</summary>
+  <ul>
+    <li><a href="https://eslint.org/">EsLint</a></li>
+    <li><a href="https://stylelint.io/">Stylelint</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Markup Languages</summary>
+  <ul>
+    <li><a href="https://html.spec.whatwg.org/multipage/">HTML5</a></li>
+    <li><a href="https://www.w3.org/TR/CSS/#css">CSS3</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+## Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> The following a key features of the app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Created React **
+- **Created React Redux store**
+- **Created components to view random messages from a Rails API endpoint**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- GETTING STARTED -->
 
-## Learn More
+## 💻 Getting Started <a name="getting-started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> The following applications are required to be installed for the project to run!
 
-### Code Splitting
+- Install Ruby on your computer (machine)
+- Install a modern browser e.g [Google Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/en-us/edge?r=1), [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/) etc.
+- Install [Node.js](https://nodejs.org/en/download/) LTS version
+- Install [Git](https://git-scm.com/downloads)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Setup
 
-### Analyzing the Bundle Size
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
+  git clone git@github.com:PraisesPJMT/Hello-React-Frontend.git
+  cd Hello-React-Frontend
+```
 
-### Making a Progressive Web App
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install this project with:
 
-### Advanced Configuration
+```sh
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Usage
 
-### Deployment
+To run the project, execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```sh
+  npm start
+```
 
-### `npm run build` fails to minify
+- After running `npm start`, use the app on [http://localhost:3000/](http://localhost:3000/) in the browser!
+- For more information please visit [Ruby-on-Rails](https://rubyonrails.org/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Praises Tula**
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Paul-js-hub)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praises-tula/)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/PraisesPJMT/)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praisesmusa@gmail.com)
+[![AngelList](https://img.shields.io/badge/AngelList-%23D4D4D4.svg?style=for-the-badge&logo=AngelList&logoColor=black)](https://angel.co/u/praises-tula/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> The following are features to be expected in the future
+
+- [ ] **Connect to more API endpoints**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> - Original UI design by [Gregorire Vella](https://www.behance.net/gregoirevella) on [Behance](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=).
+> - Tip hart to you for checking this project out
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
